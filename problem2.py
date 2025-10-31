@@ -1,5 +1,4 @@
-container = set()
-def calculation(limit):
+def calculation(limit,container):
     even_sum = 0
     sorted_container = sorted(container)
     for i in range(1, limit,3):
@@ -10,6 +9,7 @@ def phibanoci(limit):
     a = 1
     b = 2
     limit -= 1
+    container = set()
     counter = 2 
     container.add(a)
     container.add(b)
@@ -18,5 +18,5 @@ def phibanoci(limit):
         a, b = b, a + b
         container.add(b)
     print(counter)
-    calculation(counter)
+    calculation(counter,container)
 phibanoci(4000000)
