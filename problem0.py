@@ -8,4 +8,4 @@ def calculate(limit):
     single = odd_number * (odd_number + 1) // 2
     summer = 4 * quadratic - 4 * single  + odd_number
     print(summer)
-calculate(895000)
+calculate(838000)
