@@ -8,4 +8,4 @@ def calculate(x):
     n = x // 2
     result = pictorial[x]//(pictorial[n]**2)
     return result
-print(calculate(20))
+print(calculate(14))
